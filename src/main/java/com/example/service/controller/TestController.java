@@ -36,7 +36,7 @@ public class TestController {
         return pingPongService.check();
     }
 
-    @GetMapping("/api/v1/multithread")
+    @GetMapping("/api/v1/check2")
     String check2(@RequestParam int executors, @RequestParam int tasks) {
         log.info("check2 executors={}, tasks={}", executors, tasks);
         ContextSnapshotFactory snapshotFactory = ContextSnapshotFactory.builder().build();
