@@ -1,0 +1,5 @@
+### GET request to example server
+ GET http://localhost:18080/api/v1/tests
+
+###
+# GET http://localhost:18080/actuator
